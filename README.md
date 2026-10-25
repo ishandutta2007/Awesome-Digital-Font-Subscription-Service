@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Digital-Font-Subscription-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Font-Subscription-Service?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Font-Subscription-Service/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Font-Subscription-Service?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Font-Subscription-Service/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Digital-Font-Subscription-Service?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Font-Subscription-Service/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Digital-Font-Subscription-Service?style=flat-square" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Font-Subscription-Service/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
@@ -70,37 +70,37 @@ A side-by-side comparison of leading commercial digital font subscription servic
 
 ## 🌟 Open-Source GitHub Projects
 
-Curated open-source font families, self-hosting tools, and font management utilities sorted descending by GitHub star count:
+Curated open-source font families, self-hosting tools, and font management utilities sorted descending by GitHub Stars_Count:
 
-- **[Fira Code](https://github.com/tonsky/FiraCode)** [![GitHub stars](https://img.shields.io/github/stars/tonsky/FiraCode?style=social&color=white)](https://github.com/tonsky/FiraCode/stargazers)  
+- **[Fira Code](https://github.com/tonsky/FiraCode)** [![GitHub_Stars](https://img.shields.io/github/stars/tonsky/FiraCode?style=social&color=white)](https://github.com/tonsky/FiraCode/stargazers)  
   ⚡ Free monospaced font with programming ligatures for code editors and terminal environments.
-- **[Font Awesome](https://github.com/FortAwesome/Font-Awesome)** [![GitHub stars](https://img.shields.io/github/stars/FortAwesome/Font-Awesome?style=social&color=white)](https://github.com/FortAwesome/Font-Awesome/stargazers)  
+- **[Font Awesome](https://github.com/FortAwesome/Font-Awesome)** [![GitHub_Stars](https://img.shields.io/github/stars/FortAwesome/Font-Awesome?style=social&color=white)](https://github.com/FortAwesome/Font-Awesome/stargazers)  
   🎨 The world's most popular icon font, vector asset, and CSS toolkit for web and application design.
-- **[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)** [![GitHub stars](https://img.shields.io/github/stars/ryanoasis/nerd-fonts?style=social&color=white)](https://github.com/ryanoasis/nerd-fonts/stargazers)  
+- **[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)** [![GitHub_Stars](https://img.shields.io/github/stars/ryanoasis/nerd-fonts?style=social&color=white)](https://github.com/ryanoasis/nerd-fonts/stargazers)  
   🧩 High-volume iconic font aggregator and patcher collecting over 3,600 glyphs across 50+ developer typefaces.
-- **[Cascadia Code](https://github.com/microsoft/cascadia-code)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/cascadia-code?style=social&color=white)](https://github.com/microsoft/cascadia-code/stargazers)  
+- **[Cascadia Code](https://github.com/microsoft/cascadia-code)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/cascadia-code?style=social&color=white)](https://github.com/microsoft/cascadia-code/stargazers)  
   💻 Microsoft's modern monospaced typeface designed for Windows Terminal, VS Code, and development workflows.
-- **[Iosevka](https://github.com/be5invis/Iosevka)** [![GitHub stars](https://img.shields.io/github/stars/be5invis/Iosevka?style=social&color=white)](https://github.com/be5invis/Iosevka/stargazers)  
+- **[Iosevka](https://github.com/be5invis/Iosevka)** [![GitHub_Stars](https://img.shields.io/github/stars/be5invis/Iosevka?style=social&color=white)](https://github.com/be5invis/Iosevka/stargazers)  
   📐 Slender, highly customizable open-source algorithmic coding typeface family built from source code.
-- **[Google Fonts Repository](https://github.com/google/fonts)** [![GitHub stars](https://img.shields.io/github/stars/google/fonts?style=social&color=white)](https://github.com/google/fonts/stargazers)  
+- **[Google Fonts Repository](https://github.com/google/fonts)** [![GitHub_Stars](https://img.shields.io/github/stars/google/fonts?style=social&color=white)](https://github.com/google/fonts/stargazers)  
   🌐 Official source repository containing the master files for all open-source typefaces distributed via fonts.google.com under the SIL Open Font License (OFL).
-- **[Source Code Pro](https://github.com/adobe-fonts/source-code-pro)** [![GitHub stars](https://img.shields.io/github/stars/adobe-fonts/source-code-pro?style=social&color=white)](https://github.com/adobe-fonts/source-code-pro/stargazers)  
+- **[Source Code Pro](https://github.com/adobe-fonts/source-code-pro)** [![GitHub_Stars](https://img.shields.io/github/stars/adobe-fonts/source-code-pro?style=social&color=white)](https://github.com/adobe-fonts/source-code-pro/stargazers)  
   🖥️ Adobe's open-source monospaced typeface family crafted specifically for programming and terminal UIs.
-- **[Inter](https://github.com/rsms/inter)** [![GitHub stars](https://img.shields.io/github/stars/rsms/inter?style=social&color=white)](https://github.com/rsms/inter/stargazers)  
+- **[Inter](https://github.com/rsms/inter)** [![GitHub_Stars](https://img.shields.io/github/stars/rsms/inter?style=social&color=white)](https://github.com/rsms/inter/stargazers)  
   📱 Superfamily typeface carefully crafted for computer interfaces, featuring tall x-height and variable axes.
-- **[Monaspace](https://github.com/githubnext/monaspace)** [![GitHub stars](https://img.shields.io/github/stars/githubnext/monaspace?style=social&color=white)](https://github.com/githubnext/monaspace/stargazers)  
+- **[Monaspace](https://github.com/githubnext/monaspace)** [![GitHub_Stars](https://img.shields.io/github/stars/githubnext/monaspace?style=social&color=white)](https://github.com/githubnext/monaspace/stargazers)  
   🚀 Superfamily of 5 coding fonts by GitHub Next, featuring texture healing, code ligatures, and multiple weights.
-- **[Source Han Sans](https://github.com/adobe-fonts/source-han-sans)** [![GitHub stars](https://img.shields.io/github/stars/adobe-fonts/source-han-sans?style=social&color=white)](https://github.com/adobe-fonts/source-han-sans/stargazers)  
+- **[Source Han Sans](https://github.com/adobe-fonts/source-han-sans)** [![GitHub_Stars](https://img.shields.io/github/stars/adobe-fonts/source-han-sans?style=social&color=white)](https://github.com/adobe-fonts/source-han-sans/stargazers)  
   🌏 Pan-CJK open-source typeface family covering Simplified Chinese, Traditional Chinese, Japanese, and Korean.
-- **[Fontsource](https://github.com/fontsource/fontsource)** [![GitHub stars](https://img.shields.io/github/stars/fontsource/fontsource?style=social&color=white)](https://github.com/fontsource/fontsource/stargazers)  
+- **[Fontsource](https://github.com/fontsource/fontsource)** [![GitHub_Stars](https://img.shields.io/github/stars/fontsource/fontsource?style=social&color=white)](https://github.com/fontsource/fontsource/stargazers)  
   📦 Ecosystem of open-source and Google Fonts packaged as individual NPM packages for privacy-first, self-hosted web fonts.
-- **[Brick](https://github.com/alfredxing/brick)** [![GitHub stars](https://img.shields.io/github/stars/alfredxing/brick?style=social&color=white)](https://github.com/alfredxing/brick/stargazers)  
+- **[Brick](https://github.com/alfredxing/brick)** [![GitHub_Stars](https://img.shields.io/github/stars/alfredxing/brick?style=social&color=white)](https://github.com/alfredxing/brick/stargazers)  
   🧱 Open-source web font service engineered to deliver open-source fonts in original TTF/WOFF/WOFF2 fidelity without raster distortion.
-- **[Fontmake](https://github.com/googlefonts/fontmake)** [![GitHub stars](https://img.shields.io/github/stars/googlefonts/fontmake?style=social&color=white)](https://github.com/googlefonts/fontmake/stargazers)  
+- **[Fontmake](https://github.com/googlefonts/fontmake)** [![GitHub_Stars](https://img.shields.io/github/stars/googlefonts/fontmake?style=social&color=white)](https://github.com/googlefonts/fontmake/stargazers)  
   🛠️ Google Fonts compilation toolchain compiling font sources (UFO, Glyphs) into binary TTF and OTF formats.
-- **[gftools](https://github.com/googlefonts/gftools)** [![GitHub stars](https://img.shields.io/github/stars/googlefonts/gftools?style=social&color=white)](https://github.com/googlefonts/gftools/stargazers)  
+- **[gftools](https://github.com/googlefonts/gftools)** [![GitHub_Stars](https://img.shields.io/github/stars/googlefonts/gftools?style=social&color=white)](https://github.com/googlefonts/gftools/stargazers)  
   🔧 Essential command-line utilities and QA tools for manipulating and testing typefaces for the Google Fonts ecosystem.
-- **[Fontmatrix](https://github.com/fontmatrix/fontmatrix)** [![GitHub stars](https://img.shields.io/github/stars/fontmatrix/fontmatrix?style=social&color=white)](https://github.com/fontmatrix/fontmatrix/stargazers)  
+- **[Fontmatrix](https://github.com/fontmatrix/fontmatrix)** [![GitHub_Stars](https://img.shields.io/github/stars/fontmatrix/fontmatrix?style=social&color=white)](https://github.com/fontmatrix/fontmatrix/stargazers)  
   📁 Cross-platform open-source font management system for Linux, Windows, and macOS with font tagging and activation.
 
 ---
