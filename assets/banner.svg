@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Glowing Orb Gradients -->
+    <radialGradient id="glowIndigo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1" />
+      <circle cx="40" cy="40" r="1" fill="#ffffff" fill-opacity="0.1" />
+    </pattern>
+
+    <style>
+      .bg-rect { fill: url(#bgGrad); }
+      .grid-layer { fill: url(#gridPattern); }
+      
+      /* Dynamic glowing background orbs */
+      .orb-1 {
+        animation: floatOrb1 14s ease-in-out infinite alternate;
+      }
+      .orb-2 {
+        animation: floatOrb2 16s ease-in-out infinite alternate;
+      }
+      .orb-3 {
+        animation: floatOrb3 12s ease-in-out infinite alternate;
+      }
+
+      /* Animated floating typography cards in background */
+      .bg-glyph {
+        font-family: 'Times New Roman', serif;
+        fill: #ffffff;
+        font-weight: 700;
+        opacity: 0.04;
+        animation: rotateGlyph 40s linear infinite;
+        transform-origin: center;
+      }
+
+      .floating-pill {
+        animation: floatPill 6s ease-in-out infinite alternate;
+      }
+      .floating-pill-delay {
+        animation: floatPill 6s ease-in-out infinite alternate;
+        animation-delay: -3s;
+      }
+
+      /* Subtle gradient shimmer on title */
+      .shimmer-text {
+        background: linear-gradient(90deg, #ffffff 0%, #cbd5e1 50%, #ffffff 100%);
+      }
+
+      @keyframes floatOrb1 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(70px, 40px) scale(1.15); }
+      }
+      @keyframes floatOrb2 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(-60px, -30px) scale(1.2); }
+      }
+      @keyframes floatOrb3 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(40px, -50px) scale(1.1); }
+      }
+      @keyframes floatPill {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+      @keyframes rotateGlyph {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" class="bg-rect" />
+  <rect width="1200" height="420" rx="16" class="grid-layer" />
+
+  <!-- Animated Glowing Atmospheric Orbs (Kept behind everything) -->
+  <g>
+    <circle cx="200" cy="120" r="280" fill="url(#glowIndigo)" class="orb-1" />
+    <circle cx="1020" cy="300" r="260" fill="url(#glowPink)" class="orb-2" />
+    <circle cx="900" cy="80" r="220" fill="url(#glowCyan)" class="orb-3" />
+  </g>
+
+  <!-- Giant Background Typography Watermarks -->
+  <g>
+    <text x="1000" y="320" font-size="340" class="bg-glyph">Aa</text>
+    <text x="80" y="260" font-size="240" class="bg-glyph">&amp;</text>
+  </g>
+
+  <!-- Top Category Eyebrow Pill -->
+  <g class="floating-pill" transform="translate(100, 52)">
+    <rect width="320" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="18" cy="17" r="4.5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="22" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">CURATED AWESOME ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title & Foregrounds (Strictly crisp, clear foreground) -->
+  <g transform="translate(100, 150)">
+    <!-- Title Text -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.8">
+      Digital Font Subscription Service
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#94a3b8">
+      The definitive directory for SaaS font platforms, web typography APIs, and open-source foundries
+    </text>
+    <text x="0" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b">
+      Featuring transparent enterprise pricing, free tier limits, market dynamics &amp; GitHub rankings
+    </text>
+  </g>
+
+  <!-- Feature Highlights / Interactive Indicators in safe lower-middle area -->
+  <g transform="translate(100, 275)">
+    <!-- Pill 1: SaaS Pricing -->
+    <g class="floating-pill">
+      <rect width="210" height="52" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#6366f1" fill-opacity="0.2" />
+      <text x="24" y="31" font-family="Arial" font-size="14" fill="#818cf8" font-weight="bold" text-anchor="middle">💎</text>
+      <text x="44" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">SaaS Comparison</text>
+      <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">Tiered pricing &amp; limits</text>
+    </g>
+
+    <!-- Pill 2: Open Source -->
+    <g class="floating-pill-delay" transform="translate(230, 0)">
+      <rect width="220" height="52" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#a855f7" fill-opacity="0.2" />
+      <text x="24" y="31" font-family="Arial" font-size="14" fill="#c084fc" font-weight="bold" text-anchor="middle">⭐</text>
+      <text x="44" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Open-Source Hub</text>
+      <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">Ranked by star counts</text>
+    </g>
+
+    <!-- Pill 3: Market Economics -->
+    <g class="floating-pill" transform="translate(470, 0)">
+      <rect width="220" height="52" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#ec4899" fill-opacity="0.2" />
+      <text x="24" y="31" font-family="Arial" font-size="14" fill="#f472b6" font-weight="bold" text-anchor="middle">📊</text>
+      <text x="44" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Market Dynamics</text>
+      <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">Market size &amp; structure</text>
+    </g>
+
+    <!-- Pill 4: Web Font APIs -->
+    <g class="floating-pill-delay" transform="translate(710, 0)">
+      <rect width="210" height="52" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <rect x="14" y="16" width="20" height="20" rx="6" fill="#06b6d4" fill-opacity="0.2" />
+      <text x="24" y="31" font-family="Arial" font-size="14" fill="#22d3ee" font-weight="bold" text-anchor="middle">⚡</text>
+      <text x="44" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Self-Hostable</text>
+      <text x="44" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">NPM &amp; OFL licenses</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Gradient Line -->
+  <rect x="0" y="416" width="1200" height="4" fill="url(#primaryGrad)" />
+</svg>
